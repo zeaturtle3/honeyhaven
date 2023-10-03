@@ -1,0 +1,186 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    background-image: url(images/hoenycomehth.png);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position-y: -52px;
+    background-position-x: 300px;
+}
+.navi {
+    float: left;
+    padding: 20px;
+    text-align: center;
+    background: #FABF12;
+    background-origin: content-box;
+    border-radius: 50px;
+    margin-left: 20px;
+    margin-top: -8px;
+    width: 14%;
+    height: 13px;
+    padding-top: 13px;
+    padding-left: 15px;
+    list-style-type: none;
+}
+
+ul {
+    margin-left: 600px;
+    list-style-type: none;
+}
+nav {
+    background-color: #FFEDA0;
+    height: 80px;
+    margin: 0;
+    font-family: "Quicksand";
+    font-size: 16px;
+    list-style-type: none;
+    padding-right: 100px;
+    padding-top: 17px;
+}
+#navihth {
+    padding: 20px;
+    text-align: center;
+    background: #FFF6DB;
+    background-origin: content-box;
+    border-radius: 50px;
+    margin-left: 20px;
+    margin-top: -8px;
+    width: 14%;
+    height: 13px;
+    padding-top: 13px;
+    padding-left: 15px;
+}
+#naviaboutus a:hover {
+    background-color: #FFF6DB; 
+    background-origin: content-box;
+    border-radius: 50px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin: -40px;
+    scale: 100%;
+    transition: .25s;
+}
+#naviwhybees a:hover {
+    background-color: #FFF6DB; 
+    background-origin: content-box;
+    border-radius: 50px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 29px;
+    padding-right: 29px;
+    margin: -40px;
+    scale: 100%;
+    transition: .25s;
+}
+#navibuzzus a:hover {
+    background-color: #FFF6DB; 
+    background-origin: content-box;
+    border-radius: 50px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: -40px;
+    scale: 100%;
+    transition: .25s;
+}
+a:link, a:visited {
+    text-decoration: none;
+    color: black;
+}
+nav #Logo {
+    width: 128px;
+    height: 64px;
+    padding-left: 190px;
+    padding-top: 0px;
+    margin-bottom: 20px;
+    float: left;
+}
+h2 {
+    font-family: "sirenia", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 55px;
+    padding-top: 60px;
+    margin-left: 195px;
+    letter-spacing: 1px;
+}
+h3 {
+    font-family: "sirenia", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 40px;
+    padding-top: 60px;
+    margin-left: 195px;
+    letter-spacing: 1px;
+}
+p {
+    font-size: 20px;
+    margin-left: 195px;
+    margin-top: -20px;
+    line-height: 27px;
+    width: 550px;
+}
+.hthlist p {
+    width: 430px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+}
+.hthlist h3 {
+    margin-bottom: 30px;
+}
+.hthlist {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 70px;
+}
+#hthimg {
+    display: flex;
+    flex-direction: column;
+    margin-left: 280px;
+    margin-top: 50px;
+}
+#hthimg img {
+    margin-bottom: 50px;
+}
+#hthtext {
+    display: flex;
+    flex-direction: column;
+    margin-left: -70px;
+}
+footer {
+    background-color: #FFEDA0;
+    width: 100%;
+    height: 100px;
+    bottom: 0;
+    padding-top: 20px;
+}
+.footerlogo {
+    float: right;
+    padding-right: 195px;
+}
+.footert {
+    float: right;
+    margin-top: -70px;
+    padding-left: 10px;
+    padding-right: 50px;
+    font: 15px "Quicksand";
+    line-height: 28px;
+    text-align: right;
+}
+.footer, #hashtag {
+    float: left;
+    padding-left: 0px;
+    padding-right: 195px;
+    font: 15px "Quicksand";
+    line-height: 22px;
+    margin-top: -8px;
+}
+#companyname {
+    font: 20px "Quicksand";
+    line-height: 22px;
+    padding-top: 40px;
+}

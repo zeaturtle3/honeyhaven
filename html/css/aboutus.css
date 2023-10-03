@@ -1,0 +1,209 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+}
+.navi {
+    float: left;
+    padding: 20px;
+    text-align: center;
+    background: #FABF12;
+    background-origin: content-box;
+    border-radius: 50px;
+    margin-left: 20px;
+    margin-top: -8px;
+    width: 14%;
+    height: 13px;
+    padding-top: 13px;
+    padding-left: 15px;
+    list-style-type: none;
+}
+
+ul {
+    margin-left: 600px;
+}
+nav {
+    background-color: #FFEDA0;
+    height: 80px;
+    margin: 0;
+    font-family: "Quicksand";
+    font-size: 16px;
+    list-style-type: none;
+    padding-right: 100px;
+    padding-top: 17px;
+}
+#naviwhybees a:hover {
+    background-color: #FFF6DB; 
+    background-origin: content-box;
+    border-radius: 50px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 29px;
+    padding-right: 29px;
+    margin: -40px;
+    scale: 100%;
+    transition: .25s;
+}
+#naviaboutus {
+    background-color: #FFF6DB; 
+    background-origin: content-box;
+    border-radius: 50px;
+    padding-top: 13px;
+    padding-bottom: 20px;
+    padding-left: 17px;
+    padding-right: 17px;
+    /* margin: -40px; */
+}
+#navihth a:hover {
+    background-color: #FFF6DB; 
+    background-origin: content-box;
+    border-radius: 50px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 23px;
+    padding-right: 23px;
+    margin: -40px;
+    scale: 100%;
+    transition: .25s;
+}
+#navibuzzus a:hover {
+    background-color: #FFF6DB; 
+    background-origin: content-box;
+    border-radius: 50px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: -40px;
+    scale: 100%;
+    transition: .25s;
+}
+a:link, a:visited {
+    text-decoration: none;
+    color: black;
+}
+nav #Logo {
+    width: 128px;
+    height: 64px;
+    padding-left: 190px;
+    padding-top: 0px;
+    margin-bottom: 20px;
+    float: left;
+}
+h2 {
+    font-size: 50px;
+    font-family: "Lilita One";
+    padding-top: 60px;
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+}
+h3 {
+    font-size: 35px;
+    font-family: "Lilita One";
+    margin-left: 195px;
+    letter-spacing: 1px;
+}
+h4 {
+    font-family: "Quicksand";
+    font-size: 25px;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: .5px;
+    width: 380px;
+}
+p {
+    font-size: 20px;
+    margin-top: -20px;
+    line-height: 27px;
+    width: 480px;
+}
+.ppp {
+    font-size: 20px;
+    text-align: center;
+    width: 290px;
+    padding-left: 42px;
+}
+.pp {
+    text-align: center;
+} 
+#aboutussec1 {
+    height: 600px;
+    background-image: url(images/hoenycombaboutus.png);
+    background-repeat: no-repeat;
+    background-size: 700px 1250px;
+    background-position-y: -190px;
+}
+#aboutusintro {
+    float: left;
+    margin-left: -130px;
+}
+#aboutuspic {
+    float: left;
+    margin-top: 130px;
+    margin-right: 195px;
+    margin-left: 140px;
+}
+#polpeople {
+    background-color: #FFEDA0;
+    padding-top: 30px;
+}
+#ppinfo1 {
+    padding-top: 50px;
+    padding-left: 160px;
+    display: flex;
+    flex-direction: row;
+}
+#person2 {
+    padding-top: 180px;
+}
+#ppinfo2 {
+    padding-top: -10px;
+    padding-left: 160px;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 100px;
+}
+#person5 {
+    padding-top: 180px;
+}
+#ppbeepic {
+    padding-top: 70px;
+    padding-left: 170px;
+    padding-bottom: 60px;
+}
+footer {
+    background-color: #FFEDA0;
+    width: 100%;
+    height: 100px;
+    bottom: 0;
+    padding-top: 20px;
+}
+.footerlogo {
+    float: right;
+    padding-right: 195px;
+}
+.footert {
+    float: right;
+    padding-left: 10px;
+    padding-right: 50px;
+    font: 15px "Quicksand";
+    line-height: 28px;
+    text-align: right;
+    margin-top: -70px;
+}
+.footer, #hashtag {
+    float: left;
+    padding-left: 0px;
+    padding-right: 195px;
+    font: 15px "Quicksand";
+    line-height: 22px;
+    margin-top: -8px;
+}
+.footer {
+    padding-left: 195px;
+}
+#companyname {
+    font: 20px "Quicksand";
+    line-height: 22px;
+    padding-top: 40px;
+}

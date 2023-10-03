@@ -1,0 +1,219 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+}
+.navi {
+    float: left;
+    padding: 20px;
+    text-align: center;
+    background: #FABF12;
+    background-origin: content-box;
+    border-radius: 50px;
+    margin-left: 20px;
+    margin-top: -8px;
+    width: 14%;
+    height: 13px;
+    padding-top: 13px;
+    padding-left: 15px;
+    list-style-type: none;
+}
+
+ul {
+    margin-left: 600px;
+}
+nav {
+    background-color: #FFEDA0;
+    height: 80px;
+    margin: 0;
+    font-family: "Quicksand";
+    font-size: 16px;
+    list-style-type: none;
+    padding-right: 100px;
+    padding-top: 17px;
+}
+#naviwhybees a:hover {
+    background-color: #FFF6DB; 
+    background-origin: content-box;
+    border-radius: 50px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 29px;
+    padding-right: 29px;
+    margin: -40px;
+    scale: 100%;
+    transition: .25s;
+}
+#naviaboutus a:hover {
+    background-color: #FFF6DB; 
+    background-origin: content-box;
+    border-radius: 50px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin: -40px;
+    scale: 100%;
+    transition: .25s;
+}
+#navihth a:hover {
+    background-color: #FFF6DB; 
+    background-origin: content-box;
+    border-radius: 50px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 23px;
+    padding-right: 23px;
+    margin: -40px;
+    scale: 100%;
+    transition: .25s;
+}
+#navibuzzus {
+    padding: 20px;
+    text-align: center;
+    background: #FFF6DB;
+    background-origin: content-box;
+    border-radius: 50px;
+    margin-left: 20px;
+    margin-top: -8px;
+    width: 14%;
+    height: 13px;
+    padding-top: 13px;
+    padding-left: 15px;
+}
+a:link, a:visited {
+    text-decoration: none;
+    color: black;
+}
+nav #Logo {
+    width: 128px;
+    height: 64px;
+    padding-left: 190px;
+    padding-top: 0px;
+    margin-bottom: 20px;
+    float: left;
+}
+h2 {
+    font-size: 50px;
+    font-family: "Lilita One";
+    padding-left: 195px;
+    padding-top: 60px;
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+}
+h3 {
+    font-size: 35px;
+    font-family: "Lilita One";
+    margin-left: 195px;
+    letter-spacing: 1px;
+    padding-bottom: 20px;
+}
+h4 {
+    font-family: "Quicksand";
+    font-size: 25px;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: .5px;
+    width: 380px;
+}
+#buintro {
+    background-image: url(images/honeycomb_ud.png);
+    background-size: 800px 800px;
+    background-position-x: 650px;
+    background-position-y: -540px;
+    background-repeat: no-repeat;
+    margin-top: -42px;
+    padding-bottom: 400px;
+}
+p {
+    font-size: 20px;
+    margin-left: 195px;
+    margin-top: -20px;
+    line-height: 27px;
+    width: 420px;
+}
+#info {
+    font-size: 20px;
+    height: 300px;
+    width: 480px;
+    float: left;
+    margin-left: 80px;
+    margin-right: 195px;
+    margin-top: 80px;
+    line-height: 27px;
+}
+#beepic {
+    float: left;
+    margin-left: 195px;
+    margin-top: 20px;
+}
+#budonate {
+    padding-top: 70px;
+    margin-left: -10px;
+    background-color: #FFEDA0;
+    display: flex;
+    flex-direction: row;
+    height: 650px;
+}
+#donationbox {
+    margin-left: 90px;
+    padding-top: 20px;
+    width: 550px;
+    height: 550px;
+    background-color: #FABF12;
+    border-radius: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.dono {
+    margin-left: 55px;
+    color: #707070;
+    background-color: #FFF6DB;
+    border-radius: 50px;
+    padding: 12px;
+    padding-left: 15px;
+    margin-top: 2px;
+}
+#donationbox h4 {
+    padding-left: 85px;
+}
+#kindwords {
+    padding-top: 20px;
+    height: 150px;
+    border-radius: 40px;
+}
+#bubeepic {
+    padding-top: 70px;
+    padding-left: 170px;
+    padding-bottom: 60px;
+}
+footer {
+    background-color: #FFEDA0;
+    width: 100%;
+    height: 100px;
+    bottom: 0;
+    padding-top: 20px;
+}
+.footerlogo {
+    float: right;
+    padding-right: 195px;
+}
+.footert {
+    float: right;
+    padding-right: 50px;
+    font: 15px "Quicksand";
+    line-height: 28px;
+    text-align: right;
+    margin-top: 5px;
+}
+.footer, #hashtag {
+    float: left;
+    font: 15px "Quicksand";
+    line-height: 22px;
+    margin-top: -8px;
+}
+#companyname {
+    font: 20px "Quicksand";
+    line-height: 22px;
+    padding-top: 40px;
+}
