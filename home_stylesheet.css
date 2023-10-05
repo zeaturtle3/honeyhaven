@@ -204,7 +204,7 @@ transition: .25s;
 }
 .extrainfo {
     margin-top: 550px;
-    background-image: url(logo outline.png);
+    background-image: url(logo\ outline.png);
     background-position-x: -100px;
     background-position-y: -130px;
     background-repeat: no-repeat;
