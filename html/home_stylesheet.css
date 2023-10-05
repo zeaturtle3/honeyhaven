@@ -15,13 +15,14 @@ header {
     background: #FABF12;
     background-origin: content-box;
     border-radius: 50px;
-    margin-left: 20px;
+    margin-left: 3%;
     margin-top: -8px;
-    width: 14%;
     height: 13px;
     padding-top: 13px;
     padding-left: 15px;
     list-style-type: none;
+    max-width: 100px;
+    min-width: 100px;
 }
 
 ul {
