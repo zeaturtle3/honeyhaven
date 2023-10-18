@@ -161,7 +161,7 @@ p {
     flex-direction: row;
 }
 #ppinfo1 img {
-    width: 20%
+    width: 10%
 }
 #person2 {
     padding-top: 180px;
@@ -172,6 +172,9 @@ p {
     display: flex;
     flex-direction: row;
     padding-bottom: 100px;
+}
+#ppinfo2 img {
+    width: 10%
 }
 #person5 {
     padding-top: 180px;
