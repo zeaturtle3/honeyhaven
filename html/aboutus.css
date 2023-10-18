@@ -162,7 +162,7 @@ p {
     flex-direction: row;
 }
 #ppinfo1 img {
-    width: 70%
+    width: 100%
 }
 #person2 {
     padding-top: 180px;
@@ -175,7 +175,7 @@ p {
     padding-bottom: 100px;
 }
 #ppinfo2 img {
-    width: 70%
+    width: 100%
 }
 #person5 {
     padding-top: 180px;
