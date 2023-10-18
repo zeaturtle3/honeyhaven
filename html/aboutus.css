@@ -160,6 +160,9 @@ p {
     display: flex;
     flex-direction: row;
 }
+#ppinfo1 img {
+    width: 20%
+}
 #person2 {
     padding-top: 180px;
 }
